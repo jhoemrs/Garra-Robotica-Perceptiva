@@ -1,0 +1,38 @@
+﻿Build started 06/01/2015 19:22:43.
+     1>Project "C:\Users\maver_000\Documents\Projects\RealSense\face_tracking\face_tracking_vs2013.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /Iinclude /Ires /I../common/include /I../../include /I"C:\Program Files (x86)\Intel\RSSDK\/include" /I"C:\Program Files (x86)\Intel\RSSDK\/sample/common/include" /Z7 /nologo /W3 /WX- /Od /D WIN64 /D _DEBUG /D _CONSOLE /D _WIN64_WINNT=0x0600 /D _UNICODE /D UNICODE /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"build/x64_Debug/face_tracking/" /Gd /TP /errorReport:prompt src\FaceTrackingProcessor.cpp src\FaceTrackingUtilities.cpp src\FaceTrackingFrameRateCalculator.cpp src\FaceTrackingRenderer.cpp src\main.cpp src\FaceTrackingAlertHandler.cpp
+         FaceTrackingProcessor.cpp
+         FaceTrackingUtilities.cpp
+         FaceTrackingFrameRateCalculator.cpp
+         FaceTrackingRenderer.cpp
+     1>src\FaceTrackingRenderer.cpp(152): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\FaceTrackingRenderer.cpp(157): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\FaceTrackingRenderer.cpp(196): warning C4267: 'initializing' : conversion from 'size_t' to 'const int', possible loss of data
+     1>src\FaceTrackingRenderer.cpp(202): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\FaceTrackingRenderer.cpp(213): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\FaceTrackingRenderer.cpp(267): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\FaceTrackingRenderer.cpp(271): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\FaceTrackingRenderer.cpp(275): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\FaceTrackingRenderer.cpp(279): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\FaceTrackingRenderer.cpp(394): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+         main.cpp
+     1>src\main.cpp(85): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         FaceTrackingAlertHandler.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /I. /Iinclude /Ires /I../common/include /I../../include /I"C:\Program Files (x86)\Intel\RSSDK\/include" /I"C:\Program Files (x86)\Intel\RSSDK\/sample/common/include" /nologo /fo"build/x64_Debug/face_tracking/face_tracking.res" face_tracking.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"bin/x64/face_tracking_d.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../common/lib/x64/v120 /LIBPATH:../../lib/x64 /LIBPATH:"C:\Program Files (x86)\Intel\RSSDK\/lib/x64" /LIBPATH:"C:\Program Files (x86)\Intel\RSSDK\/sample/common/lib/x64/v120" libpxc_d.lib libpxcutils_d.lib oleaut32.lib user32.lib odbccp32.lib ole32.lib advapi32.lib shell32.lib gdi32.lib comdlg32.lib uuid.lib winspool.lib odbc32.lib kernel32.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin/x64/face_tracking_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin/x64/face_tracking_d.lib" /MACHINE:X64 build/x64_Debug/face_tracking/face_tracking.res
+         build/x64_Debug/face_tracking/FaceTrackingProcessor.obj
+         build/x64_Debug/face_tracking/FaceTrackingUtilities.obj
+         build/x64_Debug/face_tracking/FaceTrackingFrameRateCalculator.obj
+         build/x64_Debug/face_tracking/FaceTrackingRenderer.obj
+         build/x64_Debug/face_tracking/main.obj
+         build/x64_Debug/face_tracking/FaceTrackingAlertHandler.obj
+         face_tracking_vs2013.vcxproj -> C:\Users\maver_000\Documents\Projects\RealSense\face_tracking\bin/x64/face_tracking_d.exe
+     1>Done Building Project "C:\Users\maver_000\Documents\Projects\RealSense\face_tracking\face_tracking_vs2013.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.67
