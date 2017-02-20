@@ -6,7 +6,7 @@ Serial::Serial(char *portName)
 	this->connected = false;
 
 	//Try to connect to the given port throuh CreateFile
-	this->hSerial = CreateFileA("\\\\.\\COM3",
+	this->hSerial = CreateFileA("\\\\.\\COM3",//essa linha é para conexão serial com a porta COM do arduino
 		GENERIC_READ | GENERIC_WRITE,
 		0,
 		NULL,
